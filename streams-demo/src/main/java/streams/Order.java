@@ -6,16 +6,13 @@ import java.util.List;
 
 public class Order {
 
-
     private String status;
     private LocalDate orderDate;
     private List<Product> products = new ArrayList<>();
 
-
     public Order(String status, LocalDate orderDate) {
         this.status = status;
         this.orderDate = orderDate;
-
     }
 
     public void addProduct(Product product) {
